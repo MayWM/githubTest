@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>取消订单</title>
+	<link type="text/css" href="css/orders.css" rel="stylesheet">
+	<script src="js/mobile.js"></script>
+	</head>
+	<body>
+		<div class="wrap-order-nav">
+			<button class="back-but"></button>
+			<div class="inner-order-nav">
+				详细订单
+			</div>
+		</div>
+		<div class="notice-info">
+			若单日取消订单达到3次，账户将会被冻结1天，请谨慎取消!</br> 您当日已取消 2 次
+		</div>
+		<div class="reson-info">
+			<p class="p1">请您真实告诉我们取消原因</p>
+			<p class="p2">我们会努力为您提供更好的服务</p>
+		</div>
+		<div class="form-list">
+			<form>
+				<div class="form-li">
+					<label>
+						司机离我太远<input type="radio" name="in" value="1" hidden>
+						<span class="btn"></span>
+					</label>
+
+					<label>
+						下错单或重复下单<input type="radio"name="in" value="2" hidden>
+						<span class="btn"></span>
+					</label>
+
+					<label>
+						暂时不需要车<input type="radio" name="in" value="3" hidden>
+						<span class="btn"></span>
+					</label>
+
+					<label>
+						司机让我取消订单<input type="radio" name="in" value="4" hidden>
+						<span class="btn"></span>
+					</label>
+				</div>
+				<button class="submit-but">提交</button	
+			</form>
+		</div>
+	
+	</body>
+</html>
